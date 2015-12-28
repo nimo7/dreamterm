@@ -14,13 +14,13 @@ To compile (I had so much trouble to duplicate my old environment):
 - create sys:work/dterm directory and copy sources there
 - do following assigns (or copy after SAS/C assigns at user-startup and reboot)
 
-  - assign work: sys:work
-
-  - assign lib:     work:dterm/2016/lib add
-  - assign asminc:  include:
-  - assign asminc:  work:dterm/2016/include add
-  - assign include: work:dterm/2016/include add
-  - assign include: sys:mui/developer/c/include add
+assign work: sys:work
+  
+assign lib:     work:dterm/2016/lib add
+assign asminc:  include:
+assign asminc:  work:dterm/2016/include add
+assign include: work:dterm/2016/include add
+assign include: sys:mui/developer/c/include add
 
 - find AmigaOS NDK 3.9, copy content of include_h and include_i to sc:include, copy content of linker_libs to sc:lib
 - execute create_catalog to make localization catalogs (uncomment last 6 lines if you installed 1.50 binary)
