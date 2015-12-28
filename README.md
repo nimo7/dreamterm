@@ -6,4 +6,4 @@ Note that asm files use tab value of 8, C ones 2. Don't ask about coding choices
 
 No intentional licensed, copyrighted, trademarked or patented functionality used in sources.
 
-Look README_2016.txt for compile instructionts.
+Look README_2016.txt for compile instructions.
