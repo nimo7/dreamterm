@@ -1,0 +1,7 @@
+##stringtype C
+##shortstrings
+/****************************************************************
+  This is just for DreamTerm as it won't use builtin language
+****************************************************************/
+
+#define %i %e

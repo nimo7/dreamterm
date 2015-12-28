@@ -1,0 +1,1789 @@
+#language english
+#version 2
+; 0 number is used internally for too many things :)
+;
+MSG_nil (//)
+nil
+; *******************************************************
+; ****** combined texts without keyboard shortcuts ******
+; *******************************************************
+; This name is used for freshly created entry
+; (NOTE: only one entry of this name can be in list!)
+MSG_new_entry (//)
+-- NEW --
+;
+;
+MSG_load (//)
+Load
+;
+;
+MSG_save (//)
+Save
+;
+;
+MSG_append (//)
+Append
+;
+;
+MSG_save_selected (//)
+Save selected
+;
+;
+MSG_close (//)
+Close
+;
+;
+MSG_note (//)
+Note
+;
+;
+MSG_ok (//)
+Ok
+; This is kinda standard ok|cancel for reqs
+;
+MSG_ok_cancel (//)
+Ok|Cancel
+;
+;
+MSG_project (//)
+Project
+;
+;
+MSG_current_settings (//)
+Current settings...
+;
+;
+MSG_profile (//)
+Profile...
+;
+;
+MSG_profile_phone_prefix (//)
+Profile phone prefix
+;
+;
+MSG_character_sets (//)
+Character sets...
+;
+;
+MSG_protocols (//)
+Protocols...
+;
+;
+MSG_external_emulations (//)
+External emulations...
+;
+;
+MSG_toolbars (//)
+Toolbars...
+;
+;
+MSG_load_configuration (//)
+Load configuration
+;
+;
+MSG_save_configuration (//)
+Save configuration
+;
+;
+MSG_titlebar (//)
+TitleBar
+;
+;
+MSG_temporary_directory (//)
+Temporary directory
+;
+;
+MSG_initstring (//)
+InitString
+;
+;
+MSG_priority (//)
+Priority
+;
+;
+MSG_neg_3 (//)
+-3
+;
+;
+MSG_0 (//)
+ 0
+;
+;
+MSG_3 (//)
+ 3
+;
+;
+MSG_crypt_settings (//)
+Crypt settings
+;
+;
+MSG_phonebook_crypting (//)
+Phonebook crypting
+;
+;
+MSG_auto_phonebook_save (//)
+Auto phonebook save
+;
+;
+MSG_dispose_window_objects (//)
+Dispose window objects
+;
+;
+MSG_logfile (//)
+Logfile
+;
+;
+MSG_not_active (//)
+Not active
+;
+;
+MSG_calls (//)
+Calls
+;
+;
+MSG_about (//)
+About
+;
+;
+MSG_quit (//)
+Quit
+;
+;
+MSG_phonebook (//)
+PhoneBook
+;
+;
+MSG_directory (//)
+Directory...
+;
+;
+MSG_create_entry (//)
+Create entry...
+;
+;
+MSG_load_default_phonebook (//)
+Load default phonebook
+;
+;
+MSG_save_default_phonebook (//)
+Save default phonebook
+;
+;
+MSG_dial_number (//)
+Dial number
+;
+;
+MSG_dial_next_selected (//)
+Dial next selected
+;
+;
+MSG_send_current_password (//)
+Send current password
+;
+;
+MSG_transfer (//)
+Transfer
+;
+;
+MSG_upload (//)
+Upload
+;
+;
+MSG_upload_using_list (//)
+Upload using list
+;
+;
+MSG_download (//)
+Download
+;
+;
+MSG_send_ascii (//)
+Send Ascii
+;
+;
+MSG_send_ascii_no_conv (//)
+Send Ascii (no conv)
+;
+;
+MSG_abort_send (//)
+Abort send
+;
+;
+MSG_edit_upload_list (//)
+Edit upload list
+;
+;
+MSG_upload_path (//)
+Upload path
+;
+;
+MSG_download_path (//)
+Download path
+;
+;
+MSG_protocol (//)
+Protocol
+;
+;
+MSG_auto_transfer (//)
+Automatical up/download
+;
+;
+MSG_minimal_transfer_status (//)
+Minimal transfer status
+;
+;
+MSG_double_buffer (//)
+Double buffer
+;
+;
+MSG_review_buffer (//)
+Review buffer
+;
+;
+MSG_active (//)
+Active
+;
+;
+MSG_view (//)
+View
+;
+;
+MSG_size (//)
+Size
+;
+;
+MSG_capture (//)
+Capture
+;
+;
+MSG_text (//)
+Text
+;
+;
+MSG_raw (//)
+Raw
+;
+;
+MSG_open_capture (//)
+Open capture
+;
+;
+MSG_close_capture (//)
+Close capture
+;
+;
+MSG_serial (//)
+Serial
+;
+;
+MSG_dte_rate (//)
+DTE rate
+;
+;
+MSG_300 (//)
+300
+;
+;
+MSG_1200 (//)
+1200
+;
+;
+MSG_2400 (//)
+2400
+;
+;
+MSG_4800 (//)
+4800
+;
+;
+MSG_9600 (//)
+9600
+;
+;
+MSG_14400 (//)
+14400
+;
+;
+MSG_19200 (//)
+19200
+;
+;
+MSG_38400 (//)
+38400
+;
+;
+MSG_57600 (//)
+57600
+;
+;
+MSG_76800 (//)
+76800
+;
+;
+MSG_115200 (//)
+115200
+;
+;
+MSG_enter (//)
+Enter
+;
+;
+MSG_databits (//)
+Databits
+;
+;
+MSG_7 (//)
+7
+;
+;
+MSG_8 (//)
+8
+;
+;
+MSG_parity (//)
+Parity
+;
+;
+MSG_none (//)
+None
+;
+;
+MSG_even (//)
+Even
+;
+;
+MSG_odd (//)
+Odd
+;
+;
+MSG_mark (//)
+Mark
+;
+;
+MSG_space (//)
+Space
+;
+;
+MSG_stopbits (//)
+Stopbits
+;
+;
+MSG_1 (//)
+1
+;
+;
+MSG_2 (//)
+2
+;
+;
+MSG_flow_control (//)
+Flow control
+;
+;
+MSG_xon_xoff (//)
+XON/XOFF
+;
+;
+MSG_rts_cts (//)
+RTS/CTS
+;
+;
+MSG_duplex (//)
+Duplex
+;
+;
+MSG_half (//)
+Half
+;
+;
+MSG_full (//)
+Full
+;
+;
+MSG_serial_device (//)
+Serial device
+;
+;
+MSG_serial_unit (//)
+Serial unit
+;
+;
+MSG_serial_shared (//)
+Shared serial
+;
+;
+MSG_fixed_dte_rate (//)
+Fixed DTE rate
+;
+;
+MSG_hardware_serial (//)
+Hardware serial
+;
+;
+MSG_drop_dtr_to_hangup (//)
+Drop DTR to hangup
+;
+;
+MSG_serial_active (//)
+Serial active
+;
+;
+MSG_hangup (//)
+Hangup
+;
+;
+MSG_screen (//)
+Screen
+;
+;
+MSG_screen_mode (//)
+Screen mode
+;
+;
+MSG_columns (//)
+Columns
+;
+;
+MSG_lines (//)
+Lines
+;
+;
+MSG_status (//)
+Status
+;
+;
+MSG_nothing (//)
+Nothing
+;
+;
+MSG_line (//)
+Line
+;
+;
+MSG_window (//)
+Window
+;
+;
+MSG_status_line (//)
+Status line format
+;
+;
+MSG_charset (//)
+Charset
+;
+;
+MSG_show_hardware_screen (//)
+Show hardware screen
+;
+;
+MSG_borderblank (//)
+BorderBlank
+;
+;
+MSG_keep_workbench_colors (//)
+Keep Workbench colors
+;
+;
+MSG_enable_aga_bandwith (//)
+Enable AGA bandwith
+;
+;
+MSG_hardware_screen (//)
+Hardware screen
+;
+;
+MSG_auto_rxd_popup (//)
+Auto RXD popup
+;
+;
+MSG_rts_blit (//)
+RTS blit
+;
+;
+MSG_force_screenreqs_size (//)
+Force screenreq's size
+;
+;
+MSG_use_public_screen (//)
+Use public screen
+;
+;
+MSG_public_screen_name (//)
+Public screen name
+;
+;
+MSG_txd_crlf_conversion (//)
+TXD CR/LF conversion
+;
+;
+MSG_cr_to_crlf (//)
+Convert cr to cr/lf
+;
+;
+MSG_lf_to_crlf (//)
+Convert lf to cr/lf
+;
+;
+MSG_layout (//)
+Layout
+;
+;
+MSG_vertical (//)
+Vertical
+;
+;
+MSG_horizontal (//)
+Horizontal
+;
+;
+MSG_toolbar (//)
+Toolbar
+;
+;
+MSG_emulation (//)
+Emulation
+;
+;
+MSG_ansi_vt102 (//)
+ANSI/VT102
+;
+;
+MSG_hex (//)
+HEX
+;
+;
+MSG_xem (//)
+XEm
+;
+;
+MSG_reset (//)
+RESET
+;
+;
+MSG_ansi_setup (//)
+ANSI setup
+;
+;
+MSG_prescroll (//)
+Prescroll
+;
+;
+MSG_line_wrap (//)
+Line wrap
+;
+;
+MSG_destructive_backspace (//)
+Destructive BackSpace
+;
+;
+MSG_strip_bold (//)
+Strip Bold
+;
+;
+MSG_esc2j_homes_cursor (//)
+Esc[2J homes cursor
+;
+;
+MSG_cr_lf_to_cr_lf (//)
+LF -> CR/LF
+;
+;
+MSG_pc_ansi (//)
+PC Ansi (16 colors)
+;
+;
+MSG_xem_setup (//)
+XEm setup
+;
+;
+MSG_change_options (//)
+Change options
+;
+;
+MSG_special (//)
+Special
+;
+;
+MSG_direct_print (//)
+Direct print
+;
+;
+MSG_run_command (//)
+Run command
+;
+;
+MSG_current_phonebook_is_not_saved (//)
+\\033cCurrent phonebook is not saved! Load new anyway?
+;
+;
+MSG_name (//)
+Name
+;
+;
+MSG_comment (//)
+Comment
+;
+;
+MSG_dial_prefix (//)
+Dial Prefix
+;
+;
+MSG_password (//)
+Password
+;
+;
+MSG_download_list (//)
+Download list
+;
+;
+MSG_hangup_string (//)
+Hangup
+;
+;
+MSG_dial_suffix (//)
+Dial Suffix
+;
+;
+MSG_no_carrier (//)
+No Carrier
+;
+;
+MSG_no_dialtone (//)
+No DialTone
+;
+;
+MSG_connect (//)
+Connect
+;
+;
+MSG_ringing (//)
+Ringing
+;
+;
+MSG_error (//)
+Error
+;
+;
+MSG_busy (//)
+Busy
+;
+;
+MSG_ok_string (//)
+Ok
+;
+;
+MSG_dial_abort (//)
+Dial abort
+;
+;
+MSG_call_cost (//)
+Call cost
+;
+;
+MSG_minute_cost (//)
+Minute
+;
+;
+MSG_serial_buffer (//)
+Serial buffer
+;
+;
+MSG_hardware_lines (//)
+Hardware lines
+;
+;
+MSG_wait_between_dials (//)
+Wait between dials
+;
+;
+MSG_wait_dialing (//)
+Wait dialing
+;
+;
+MSG_f1 (//)
+F1
+;
+;
+MSG_f2 (//)
+F2
+;
+;
+MSG_f3 (//)
+F3
+;
+;
+MSG_f4 (//)
+F4
+;
+;
+MSG_f5 (//)
+F5
+;
+;
+MSG_f6 (//)
+F6
+;
+;
+MSG_f7 (//)
+F7
+;
+;
+MSG_f8 (//)
+F8
+;
+;
+MSG_f9 (//)
+F9
+;
+;
+MSG_f10 (//)
+F0
+;
+;
+MSG_log_calls (//)
+Log calls
+;
+;
+MSG_review (//)
+Review
+;
+;
+MSG_review_lines (//)
+Review lines
+;
+;
+MSG_options (//)
+Options
+; **************************************************
+; ****** Combined gadget texts with shortcuts ******
+; **************************************************
+;
+; Note: To force consistency dreamterm uses SAME string with keyboard
+;       shortcut for general texts like add, delete etc. In other words
+;       choose these carefully and everyone must be different!
+;       BE CAREFUL NOT TO USE SAME KEYBOARD SHORTCUT IN OTHER GADGET
+;       TEXTS IN SAME WINDOW!
+;
+;
+MSG_key_add (//)
+_Add
+;
+;
+MSG_key_delete (//)
+_Delete
+;
+;
+MSG_key_ok (//)
+_Ok
+;
+;
+MSG_key_cancel (//)
+_Cancel
+; This is kinda standard ok|cancel for mui reqs
+;
+MSG_mui_ok_cancel (//)
+_Ok|*_Cancel
+; *******************
+; ****** dterm ******
+; *******************
+;
+;
+MSG_closing_screen_you_must_close_all_windows (//)
+Closing screen, you must close all windows!
+;
+;
+MSG_dreamterm_scr_title (//)
+DreamTerm (Copyright © 1992-1995 By Pasi Ristioja)
+;
+;
+MSG_cannot_open_requested_screen_trying_workbench (//)
+Cannot open requested screen, trying Workbench!
+;
+;
+MSG_cannot_find_public_screen_trying_workbench (//)
+Cannot find public screen, trying Workbench!
+;
+;
+MSG_cannot_find_public_screen (//)
+Cannot find public screen!
+;
+;
+MSG_dreamterm_win_title (//)
+DreamTerm
+;
+;
+MSG_cannot_open_console (//)
+Cannot open console!
+;
+;
+MSG_cannot_init_console (//)
+Cannot init console!
+;
+;
+MSG_cannot_modify_console (//)
+Cannot modify console!
+;
+;
+MSG_cannot_init_serial (//)
+Cannot init serial!
+;
+;
+MSG_out_of_memory (//)
+Out of memory!
+;
+;
+MSG_cannot_wake_up (//)
+Cannot wake up!
+;
+;
+MSG_cannot_save_current_settings (//)
+Cannot save current settings!
+;
+;
+MSG_cannot_read_profile (//)
+\\033c!!! Cannot read profile table !!!\\n\\n\
+This will affect EVERY phonebook entry which uses pick from profile feature.
+;
+;
+MSG_cannot_save_profile (//)
+\\033c!!! Cannot save profile !!!\\n\\n\
+\\033lIf you quit now then next time all phonebook entries which use\\n\
+pick from profile feature will be affected. Meaning that every\\n\
+setting which is in profile state will use hardcoded default.
+;
+;
+MSG_cannot_save_default_profile (//)
+\\033c!!! Cannot save default pickup from profile !!!\\n\\n\
+\\033lIf you quit now then next time creation of phonebook entries\\n\
+will be affected. Meaning that every setting will be in local\\n\
+state when you create phonebook entry.
+;
+;
+MSG_unable_to_continue (//64)
+*** UNABLE TO CONTINUE ***\\n\\n
+;
+;
+MSG_cannot_load_use_current_settings (//)
+Cannot load/use current settings, trying defaults...
+;
+; ****** arexx ******
+;
+;
+; ****** c2asm ******
+;
+;
+;
+MSG_cannot_open_font_for_hardware_screen (//)
+Cannot open font for hardware screen
+; *********************
+; ****** charset ******
+; *********************
+;
+;
+MSG_charset_configuration (//)
+Charset configuration
+;
+;
+MSG_select_font (//)
+Select font
+;
+;
+MSG_cannot_open_font (//)
+Cannot open font!
+;
+;
+MSG_load_txd_conversion_table (//)
+Load TXD conversion table
+;
+;
+MSG_loaded_conversion_table_incomplete_current_not_changed (//)
+Loaded conversion table incomplete, current not changed!
+;
+;
+MSG_cannot_open_conversion_table (//)
+Cannot open conversion table!
+;
+;
+MSG_load_rxd_conversion_table (//)
+Load RXD conversion table
+;
+;
+MSG_load_capture_conversion_table (//)
+Load capture/review conversion table
+;
+;
+MSG_width (//)
+width
+;
+;
+MSG_heigth (//)
+heigth
+; *****************
+; ****** cmd ******
+; *****************
+;
+;
+MSG_current_configuration_is_not_saved (//)
+\\033cCurrent configuration is not saved! Load new anyway?
+;
+;
+MSG_this_will_change_your_life (//)
+This will change your life
+;
+;
+MSG_program_modules_show_no_more (//)
+Program modules...|Show no more!
+;
+;
+MSG_about1 (//)
+\\033cDreamTerm\\n\
+Copyright © 1992-1996 By Pasi Ristioja, all rights reserved.\\n\\n\
+This is giftware release, read license to learn what you should\\n\
+do. And remember, buggy software is also used in space shuttles...
+;
+;
+MSG_who_needs_this_information (//)
+Who needs this information?
+;
+;
+MSG_about2 (//)
+\\033c%s\\n\\n\\033l\
+Asyncio.library    : %5ld Pool memory type   : %5ld\\n\
+Capture buffer size: %5ld Pool puddlesize    : %5ld\\n\
+TXD buffer size    : %5ld Pool treshhold     : %5ld\\n
+;
+;
+MSG_online (//42)
+-( Online )-\\n
+;
+;
+MSG_phonebook_directory (//42)
+-( Phonebook directory )-\\n
+;
+;
+MSG_toolbar_configuration (//42)
+-( Toolbar configuration )-\\n
+;
+;
+MSG_protocol_configuration (//42)
+-( Protocol configuration )-\\n
+;
+;
+MSG_xemulation_configuration (//42)
+-( XEmulation configuration )-\\n
+;
+;
+MSG_character_set_configuration (//42)
+-( Character set configuration )-\\n
+;
+;
+MSG_are_you_sure_to_quit (//)
+\\033cAre you sure to quit, these aren't saved yet:\\n\\n%s
+;
+;
+MSG_enter_numbers_to_dial (//)
+Enter number(s) to dial
+;
+;
+MSG_select_file (//)
+Select file
+;
+;
+MSG_select_file_no_conversion (//)
+Select file (no conversion)
+;
+;
+MSG_overwrite_append_cancel (//)
+Overwrite|Append|Cancel
+;
+;
+MSG_file_x_already_exist (//)
+\\033cFile '\\033b%s\\033n' already exist!
+; *******************
+; ****** crypt ******
+; *******************
+;
+;
+MSG_crypting_options (//)
+Crypting options
+;
+;
+MSG_library (//)
+Library
+; ********************
+; ****** dialer ******
+; ********************
+;
+;
+MSG_dialing_manually (//)
+Dialing manually
+;
+;
+MSG_dialing (//)
+Dialing...
+;
+;
+MSG_phone (//)
+Phone
+;
+;
+MSG_modem (//)
+Modem
+;
+;
+MSG_add_time (//)
+Add _time
+;
+;
+MSG_skip (//)
+_Skip
+;
+;
+MSG_abort (//)
+_Abort
+;
+;
+MSG_force_connect (//)
+_Force connect
+;
+;
+MSG_x_seconds_left_for_succesful_connection (//)
+%ld seconds left for succesful connection
+;
+;
+MSG_x_seconds_left_for_waiting (//)
+%ld seconds left for waiting
+;
+;
+MSG_x_tries_x_seconds_used (//)
+%ld tries, %s used
+;
+;
+MSG_no_name (//)
+- no name -
+; **********************
+; ****** droplist ******
+; **********************
+;
+;
+MSG_enter_new_number (//)
+Enter new number
+;
+;
+MSG_droplist (//)
+Droplist
+; *************************
+; ****** upload list ******
+; *************************
+;
+; Remember to add space after time:
+MSG_x_x_mb_time (//32)
+%ld.%02ld MB, time: 
+;
+;
+MSG_select_files_to_add (//)
+Select file(s) to add
+;
+;
+MSG_combined_size (//)
+Combined size
+;
+;
+MSG_estimated_cps (//)
+Estimated cps
+;
+;
+MSG_upload_list (//)
+Upload list
+;
+;
+MSG_delete_all (//)
+D_elete all
+;
+;
+MSG_fi_upload (//)
+_Upload
+; *************************
+; ****** guiroutines ******
+; *************************
+;
+;
+MSG_warning (//)
+Warning...
+; *******************************
+; ****** menu sub whatever ******
+; *******************************
+;
+;
+MSG_change_profile_phone_prefix (//)
+Change profile phone prefix
+;
+;
+MSG_raw_direct_to_emulation (//)
+Raw & direct to emulation
+;
+;
+MSG_enter_command_arguments (//)
+Enter command & arguments
+;
+;
+MSG_select_tempdir (//)
+Select tempdir
+;
+;
+MSG_startup_initstring (//)
+Startup initstring
+;
+;
+MSG_select_upload_path (//)
+Select upload path
+;
+;
+MSG_select_download_path (//)
+Select download path
+; ***********************
+; ****** phonebook ******
+; ***********************
+;
+;
+MSG_pb_edit_droplist (//)
+Edit droplist
+;
+;
+MSG_pb_edit_showlist (//)
+Edit showlist
+;
+;
+MSG_pb_ascending (//)
+Ascending
+;
+;
+MSG_pb_descending (//)
+Descending
+;
+;
+MSG_pb_selected (//)
+Selected
+;
+;
+MSG_pb_load_new_phonebook (//)
+Load new phonebook
+;
+;
+MSG_pb_append_new_phonebook (//)
+Append new phonebook
+;
+;
+MSG_pb_save_phonebook (//)
+Save phonebook
+;
+;
+MSG_pb_how_many_hours_to_freeze (//)
+How many hours to freeze
+;
+;
+MSG_pb_select_showlist (//)
+Select showlist
+;
+;
+MSG_pb_cannot_load_complete_phonebook (//)
+Cannot load complete phonebook!
+;
+;
+MSG_pb_cannot_decrypt_phonebook (//)
+Cannot decrypt phonebook!
+;
+;
+MSG_pb_showlist (//)
+Sh_owlist
+;
+;
+MSG_pb_dial (//)
+_Dial
+;
+;
+MSG_pb_unselect (//)
+_Unselect
+;
+;
+MSG_pb_add (//)
+_Add
+;
+;
+MSG_pb_clone (//)
+_Clone
+;
+;
+MSG_pb_edit (//)
+_Edit
+;
+;
+MSG_pb_delete (//)
+Dele_te
+;
+;
+MSG_pb_drop_away (//)
+D_rop away
+;
+;
+MSG_pb_freeze (//)
+_Freeze
+;
+;
+MSG_pb_reset (//)
+Re_set
+;
+;
+MSG_pb_enter_password (//)
+Enter password
+;
+;
+MSG_pb_cannot_crypt_phonebook (//)
+Cannot crypt phonebook!
+;
+;
+MSG_pb_cannot_save_phonebook (//)
+Cannot save phonebook!
+; ************************
+; ****** phoneentry ******
+; ************************
+;
+;
+MSG_bbs (//)
+BBS
+;
+;
+MSG_keyboard (//)
+Keyboard
+;
+;
+MSG_line_window (//)
+Line/Window
+;
+;
+MSG_external_xem (//)
+External (XEm)
+;
+;
+MSG_black_background (//)
+Black   (Background)
+;
+;
+MSG_red (//)
+Red
+;
+;
+MSG_green (//)
+Green
+;
+;
+MSG_yellow (//)
+Yellow
+;
+;
+MSG_blue (//)
+Blue
+;
+;
+MSG_magenta (//)
+Magenta
+;
+;
+MSG_cyan (//)
+Cyan
+;
+;
+MSG_white (//)
+White
+;
+;
+MSG_black_bright (//)
+Black   (Bright)
+;
+;
+MSG_red_bright (//)
+Red     (Bright)
+;
+;
+MSG_green_bright (//)
+Green   (Bright)
+;
+;
+MSG_yellow_bright (//)
+Yellow  (Bright)
+;
+;
+MSG_blue_bright (//)
+Blue    (Bright)
+;
+;
+MSG_magenta_bright (//)
+Magenta (Bright)
+;
+;
+MSG_cyan_bright (//)
+Cyan    (Bright)
+;
+;
+MSG_white_bright (//)
+White   (Bright)
+;
+;
+MSG_background (//)
+Background
+;
+;
+MSG_screen_dimension_x_x_pixels_x_colors (//)
+Screen dimension: %ldx%ld pixels, %ld colors
+;
+;
+MSG_disable_option_to_pick_it_from_profile (//)
+Disable option to pick it from profile
+;
+;
+MSG_disable_option_to_make_it_default_pick_from_profile (//)
+Disable option to make it default pick from profile
+;
+;
+MSG_disable_option_to_pick_it_from_local_here (//)
+Disable option to pick it from local (here)
+;
+;
+MSG_disable_option_to_make_it_default_pick_from_local_here (//)
+Disable option to make it default pick from local (here)
+;
+;
+MSG_yes_discard (//)
+_Yes|_Discard
+;
+;
+MSG_phonenumber_is_in_droplist (//)
+\\033cPhonenumber is in droplist\\n\\nAre you sure that you want to add entry to phonebook?
+;
+;
+MSG_pe_public_screen_name (//)
+Pubscreen
+;
+;
+MSG_pe_force_screenreqs_size (//)
+Force size
+;
+;
+MSG_pe_hardware_lines (//)
+H-Lines
+;
+;
+MSG_default (//)
+Default
+;
+;
+MSG_brighter (//)
+Brighter
+;
+;
+MSG_copy_8 (//)
+Copy 8
+;
+;
+MSG_pe_prescroll (//)
+\\033cPrescroll
+;
+;
+MSG_pe_set_pick (//)
+Set pick
+;
+;
+MSG_pe_clear_pick (//)
+Clear pick
+;
+;
+MSG_pe_editing_phonebook_entry (//255)
+Editing phonebook entry
+;
+;
+MSG_no_memory_to_edit_entry (//)
+No memory to edit entry!
+;
+;
+MSG_creating_new_phonebook_entry (//255)
+Creating new phonebook entry
+;
+;
+MSG_cannot_create_entry (//)
+Cannot create entry!
+;
+;
+MSG_editing_profile (//255)
+Editing profile
+;
+;
+MSG_editing_current_settings (//255)
+Editing current settings
+;
+;
+MSG_pe_use_public_screen (//)
+Use
+;
+;
+MSG_pe_status_line (//)
+Format
+; **********************
+; ****** protocol ******
+; **********************
+;
+;
+MSG_xp_protocol_configuration (//)
+Protocol configuration
+;
+;
+MSG_xp_select_xpr_protocol_library (//)
+Select xpr protocol library
+;
+;
+MSG_xp_xpr_library (//)
+Xpr library
+;
+;
+MSG_xp_init_string (//)
+Init string
+;
+;
+MSG_xp_auto_upload (//)
+Auto upload
+;
+;
+MSG_xp_auto_download (//)
+Auto download
+;
+;
+MSG_xp_xpr (//)
+Xpr 2.001
+;
+;
+MSG_xp_external (//)
+External
+;
+;
+MSG_xp_upload_dos (//)
+DOS upload
+;
+;
+MSG_xp_download_dos (//)
+DOS download
+; ***************************
+; ****** internal kind ******
+; ***************************
+; If this text pops up your are in _big_ trouble
+;
+MSG_alloc_force_error (//)
+Allocation which must success failed, waiting 5 seconds and trying again.
+;
+;
+MSG_phone_prefix (//)
+Phone prefix
+;
+;
+MSG_crypting_library (//)
+Crypting library
+; Actually not yet done (wonder why)
+;
+MSG_packing_library (//)
+Packing library
+;
+;
+MSG_crypting_phrase (//)
+Crypting phrase
+; This string should be never seen
+;
+MSG_obsolete (//)
+-Obsolete-
+;
+;
+MSG_depth (//)
+Depth
+;
+;
+MSG_last_called (//)
+Last called
+;
+;
+MSG_total_cost (//)
+Total cost
+;
+;
+MSG_total_time (//)
+Total time
+;
+;
+MSG_total_calls (//)
+Total calls
+;
+;
+MSG_sent_bytes (//)
+Sent bytes
+;
+;
+MSG_received_bytes (//)
+Received bytes
+;
+;
+MSG_console_x (//)
+Console x
+;
+;
+MSG_console_y (//)
+Console y
+;
+;
+MSG_overscan (//)
+Overscan
+;
+;
+MSG_autoscroll (//)
+Autoscroll
+;
+;
+MSG_freeze (//)
+Freeze
+;
+;
+MSG_toolbar_active (//)
+Toolbar active
+;
+;
+MSG_toolbar_layout (//)
+Toolbar layout
+;
+;
+MSG_no_command (//)
+No command
+;
+;
+MSG_edit_current_settings (//)
+Edit current settings
+;
+;
+MSG_edit_profile (//)
+Edit profile
+;
+;
+MSG_edit_protocols (//)
+Edit protocols
+;
+;
+MSG_edit_character_sets (//)
+Edit character set
+;
+;
+MSG_edit_emulations (//)
+Edit emulations
+;
+;
+MSG_edit_toolbar (//)
+Edit toolbar
+;
+;
+MSG_edit_crypt_settings (//)
+Edit crypt settings
+;
+;
+MSG_edit_phonebook (//)
+Edit phonebook
+;
+;
+MSG_view_review (//)
+View review
+;
+;
+MSG_release_serial (//)
+Release serial
+;
+;
+MSG_xx_mb (//)
+%ld.%02ldMB
+;
+;
+MSG_on (//)
+On
+;
+;
+MSG_off (//)
+Off
+; internal cmd tag
+;
+MSG_load_profile (//)
+Load profile
+; internal cmd tag
+;
+MSG_save_profile (//)
+Save profile
+; **********************
+; ****** showlist ******
+; **********************
+;
+;
+MSG_showlist_configuration (//)
+Showlist
+;
+;
+MSG_select_tag (//)
+Select tag
+;
+;
+MSG_control (//)
+Control
+;
+;
+MSG_move_up (//)
+Move _up
+;
+;
+MSG_move_down (//)
+Move d_own
+;
+;
+MSG_add_tag (//)
+Add _tag
+;
+;
+MSG_delete_tag (//)
+D_elete tag
+; *********************
+; ****** toolbar ******
+; *********************
+;
+;
+MSG_tb_toolbar_configuration (//)
+Toolbar configuration
+;
+;
+MSG_internal_empty (//)
+8x8x1 (Internal empty)
+;
+;
+MSG_mui_is_remapping_image (//)
+MUI is remapping image (may take a while).
+;
+;
+MSG_loading_image (//)
+Loading image (may take a while).
+;
+;
+MSG_select_picture (//)
+Select picture
+;
+;
+MSG_format (//)
+Format
+;
+;
+MSG_dos (//)
+DOS
+;
+;
+MSG_action (//)
+Action
+;
+;
+MSG_tb_add (//)
+Add
+;
+;
+MSG_tb_delete (//)
+Delete
+; *****************
+; ****** xem ******
+; *****************
+;
+;
+MSG_xem_configuration (//)
+XEm configuration
+;
+;
+MSG_select_xem_library (//)
+Select XEm library
+;
+;
+MSG_xem_library (//)
+XEm library
+;
+;
+MSG_settings (//)
+Settings
+;
+;
+MSG_colors_to_use (//)
+Colors to use
+;
+;
+MSG_xm_change_options (//)
+_Change options
+;
+;
+MSG_xm_reset (//)
+_Reset
+; ***********************
+; ****** xprdriver ******
+; ***********************
+;
+;
+MSG_xw_name (//)
+Name
+;
+;
+MSG_xw_size (//)
+Size
+;
+;
+MSG_xw_time (//)
+Time
+;
+;
+MSG_xw_cps (//)
+CPS
+;
+;
+MSG_xw_bytes (//)
+Bytes
+;
+;
+MSG_xw_blocksize (//)
+Blocksize
+;
+;
+MSG_xw_block_crc (//)
+Block crc
+;
+;
+MSG_xw_msg (//)
+Msg
+;
+;
+MSG_xw_error (//)
+Error
+; very unwise to use shortcuts here
+;
+MSG_xw_skip (//)
+Skip
+; very unwise to use shortcuts here
+;
+MSG_xw_abort (//)
+Abort
+;
+;
+MSG_select_files_to_upload (//)
+Select file(s) to upload
+;
+;
+MSG_cannot_open_xpr_library (//)
+Cannot open xpr library!
+;
+;
+MSG_enter_receive_filename (//)
+Enter receive filename
+; ********************
+; ****** review ******
+; ********************
+;
+;

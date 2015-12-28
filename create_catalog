@@ -1,0 +1,21 @@
+echo "Creating include file..."
+2016/flexcat loc/dterm.cd loc_strings.h=loc/loc_strings_h.sd
+
+echo "Creating english ct file"
+2016/flexcat loc/dterm.cd loc/english.ct=loc/english.sd
+
+echo "Updating ct files..."
+;flexcat loc/dterm.cd loc/english.ct NEWCTFILE loc/english.ct
+2016/flexcat loc/dterm.cd loc/suomi.ct   NEWCTFILE loc/suomi.ct
+
+echo "Creating catalog files..."
+2016/flexcat loc/dterm.cd loc/english.ct ALLSTRINGS CATALOG catalogs/english/dreamterm.catalog
+2016/flexcat loc/dterm.cd loc/suomi.ct   ALLSTRINGS CATALOG catalogs/suomi/dreamterm.catalog
+
+;echo "Copying source files to distribution"
+;copy loc/dterm.cd   sys:dreamterm/catalogs
+;copy loc/english.sd sys:dreamterm/catalogs
+;copy loc/suomi.ct   sys:dreamterm/catalogs
+
+;copy catalogs/english/dreamterm.catalog sys:dreamterm/catalogs/english
+;copy catalogs/suomi/dreamterm.catalog sys:dreamterm/catalogs/suomi

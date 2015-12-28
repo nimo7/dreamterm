@@ -1,0 +1,2230 @@
+## version $VER: Suomi.catalog 2.0 (18.04.1996)
+## language suomi
+## codeset 0
+## chunk AUTH Finnish catalog translation by Pasi Ristioja.
+; 0 number is used internally for too many things :)
+;
+MSG_nil
+
+;nil
+; *******************************************************
+; ****** combined texts without keyboard shortcuts ******
+; *******************************************************
+; This name is used for freshly created entry
+; (NOTE: only one entry of this name can be in list!)
+MSG_new_entry
+-- UUSI --
+;-- NEW --
+;
+;
+MSG_load
+Lataa
+;Load
+;
+;
+MSG_save
+Talleta
+;Save
+;
+;
+MSG_append
+Lisää
+;Append
+;
+;
+MSG_save_selected
+Talleta valittu
+;Save selected
+;
+;
+MSG_close
+Sulje
+;Close
+;
+;
+MSG_note
+Huomio
+;Note
+;
+;
+MSG_ok
+Ok
+;Ok
+; This is kinda standard ok|cancel for reqs
+;
+MSG_ok_cancel
+Ok|Peru
+;Ok|Cancel
+;
+;
+MSG_project
+Projekti
+;Project
+;
+;
+MSG_current_settings
+Nykyiset asetukset...
+;Current settings...
+;
+;
+MSG_profile
+Profiili...
+;Profile...
+;
+;
+MSG_profile_phone_prefix
+Profiili: puhelimen etuliite
+;Profile phone prefix
+;
+;
+MSG_character_sets
+Merkistöt...
+;Character sets...
+;
+;
+MSG_protocols
+Protokollat...
+;Protocols...
+;
+;
+MSG_external_emulations
+Ulkoiset emulaatiot...
+;External emulations...
+;
+;
+MSG_toolbars
+Työkalu palkki...
+;Toolbars...
+;
+;
+MSG_load_configuration
+Lataa asetukset
+;Load configuration
+;
+;
+MSG_save_configuration
+Talleta asetukset
+;Save configuration
+;
+;
+MSG_titlebar
+Titlebar
+;TitleBar
+;
+;
+MSG_temporary_directory
+Väliaikainen hakemisto
+;Temporary directory
+;
+;
+MSG_initstring
+Initointi stringi
+;InitString
+;
+;
+MSG_priority
+Prioriteetti
+;Priority
+;
+;
+MSG_neg_3
+-3
+;-3
+;
+;
+MSG_0
+ 0
+; 0
+;
+;
+MSG_3
+ 3
+; 3
+;
+;
+MSG_crypt_settings
+Salaus asetukset
+;Crypt settings
+;
+;
+MSG_phonebook_crypting
+Puhelinluettelon salaus
+;Phonebook crypting
+;
+;
+MSG_auto_phonebook_save
+Automaattinen talletus
+;Auto phonebook save
+;
+;
+MSG_dispose_window_objects
+Vapauta ikkunan objektit
+;Dispose window objects
+;
+;
+MSG_logfile
+Lokitiedosto
+;Logfile
+;
+;
+MSG_not_active
+Ei aktiivinen
+;Not active
+;
+;
+MSG_calls
+Soitot
+;Calls
+;
+;
+MSG_about
+Tietoja
+;About
+;
+;
+MSG_quit
+Lopeta
+;Quit
+;
+;
+MSG_phonebook
+Puhelinluettelo
+;PhoneBook
+;
+;
+MSG_directory
+Hakemisto...
+;Directory...
+;
+;
+MSG_create_entry
+Luo entry...
+;Create entry...
+;
+;
+MSG_load_default_phonebook
+Lataa oletus puhelinluettelo
+;Load default phonebook
+;
+;
+MSG_save_default_phonebook
+Talleta oletus puhelinluettelo
+;Save default phonebook
+;
+;
+MSG_dial_number
+Soita numeroon
+;Dial number
+;
+;
+MSG_dial_next_selected
+Soita seuraavaan numeroon
+;Dial next selected
+;
+;
+MSG_send_current_password
+Lähetä nykyinen salasana
+;Send current password
+;
+;
+MSG_transfer
+Siirto
+;Transfer
+;
+;
+MSG_upload
+Upload
+;Upload
+;
+;
+MSG_upload_using_list
+Upload listan tiedostot
+;Upload using list
+;
+;
+MSG_download
+Imuroi
+;Download
+;
+;
+MSG_send_ascii
+Lähetä tekstitiedosto
+;Send Ascii
+;
+;
+MSG_send_ascii_no_conv
+Lähetä tekstiedosto (ei konv.)
+;Send Ascii (no conv)
+;
+;
+MSG_abort_send
+Keskeytä lähetys
+;Abort send
+;
+;
+MSG_edit_upload_list
+Editoi upload listaa
+;Edit upload list
+;
+;
+MSG_upload_path
+Upload hakemisto
+;Upload path
+;
+;
+MSG_download_path
+Imurointi hakemisto
+;Download path
+;
+;
+MSG_protocol
+Protokolla
+;Protocol
+;
+;
+MSG_auto_transfer
+Automaattinen käynnistys
+;Automatical up/download
+;
+;
+MSG_minimal_transfer_status
+Suppea siirto informaatio
+;Minimal transfer status
+;
+;
+MSG_double_buffer
+Kaksois bufferointi
+;Double buffer
+;
+;
+MSG_review_buffer
+Kelaus bufferi
+;Review buffer
+;
+;
+MSG_active
+Päällä
+;Active
+;
+;
+MSG_view
+Katso
+;View
+;
+;
+MSG_size
+Koko
+;Size
+;
+;
+MSG_capture
+Capture
+;Capture
+;
+;
+MSG_text
+Teksti
+;Text
+;
+;
+MSG_raw
+Data
+;Raw
+;
+;
+MSG_open_capture
+Avaa capture
+;Open capture
+;
+;
+MSG_close_capture
+Sulje capture
+;Close capture
+;
+;
+MSG_serial
+Sarjaportti
+;Serial
+;
+;
+MSG_dte_rate
+DTE nopeus
+;DTE rate
+;
+;
+MSG_300
+300
+;300
+;
+;
+MSG_1200
+1200
+;1200
+;
+;
+MSG_2400
+2400
+;2400
+;
+;
+MSG_4800
+4800
+;4800
+;
+;
+MSG_9600
+9600
+;9600
+;
+;
+MSG_14400
+14400
+;14400
+;
+;
+MSG_19200
+19200
+;19200
+;
+;
+MSG_38400
+38400
+;38400
+;
+;
+MSG_57600
+57600
+;57600
+;
+;
+MSG_76800
+76800
+;76800
+;
+;
+MSG_115200
+115200
+;115200
+;
+;
+MSG_enter
+Syötä
+;Enter
+;
+;
+MSG_databits
+Databitit
+;Databits
+;
+;
+MSG_7
+7
+;7
+;
+;
+MSG_8
+8
+;8
+;
+;
+MSG_parity
+Pariteetti
+;Parity
+;
+;
+MSG_none
+None
+;None
+;
+;
+MSG_even
+Even
+;Even
+;
+;
+MSG_odd
+Odd
+;Odd
+;
+;
+MSG_mark
+Mark
+;Mark
+;
+;
+MSG_space
+Space
+;Space
+;
+;
+MSG_stopbits
+Loppubitit
+;Stopbits
+;
+;
+MSG_1
+1
+;1
+;
+;
+MSG_2
+2
+;2
+;
+;
+MSG_flow_control
+Kättely
+;Flow control
+;
+;
+MSG_xon_xoff
+XON/XOFF
+;XON/XOFF
+;
+;
+MSG_rts_cts
+RTS/CTS
+;RTS/CTS
+;
+;
+MSG_duplex
+Kaiutus
+;Duplex
+;
+;
+MSG_half
+Puoli
+;Half
+;
+;
+MSG_full
+Täysi
+;Full
+;
+;
+MSG_serial_device
+Sarjaportin ajuri
+;Serial device
+;
+;
+MSG_serial_unit
+Sarjaportin numero
+;Serial unit
+;
+;
+MSG_serial_shared
+Jaettu sarjaportti
+;Shared serial
+;
+;
+MSG_fixed_dte_rate
+Vakio DTE nopeus
+;Fixed DTE rate
+;
+;
+MSG_hardware_serial
+Oma sarjaportin ajuri
+;Hardware serial
+;
+;
+MSG_drop_dtr_to_hangup
+Tiputa dtr katkaisuksi
+;Drop DTR to hangup
+;
+;
+MSG_serial_active
+Sarjaportti päällä
+;Serial active
+;
+;
+MSG_hangup
+Katkaise
+;Hangup
+;
+;
+MSG_screen
+Näyttö
+;Screen
+;
+;
+MSG_screen_mode
+Ruudun moodi
+;Screen mode
+;
+;
+MSG_columns
+Leveys
+;Columns
+;
+;
+MSG_lines
+Korkeus
+;Lines
+;
+;
+MSG_status
+Statistiikka
+;Status
+;
+;
+MSG_nothing
+Ei mitään
+;Nothing
+;
+;
+MSG_line
+Rivi
+;Line
+;
+;
+MSG_window
+Ikkuna
+;Window
+;
+;
+MSG_status_line
+Status rivin formaatti
+;Status line format
+;
+;
+MSG_charset
+Merkistö
+;Charset
+;
+;
+MSG_show_hardware_screen
+Näytä kovo ruutu
+;Show hardware screen
+;
+;
+MSG_borderblank
+BorderBlank
+;BorderBlank
+;
+;
+MSG_keep_workbench_colors
+Pidä Työpöydän värit
+;Keep Workbench colors
+;
+;
+MSG_enable_aga_bandwith
+Enabloi AGA
+;Enable AGA bandwith
+;
+;
+MSG_hardware_screen
+Kovo ruutu
+;Hardware screen
+;
+;
+MSG_auto_rxd_popup
+RXD aktivoi ikkunan
+;Auto RXD popup
+;
+;
+MSG_rts_blit
+RTS blittaus
+;RTS blit
+;
+;
+MSG_force_screenreqs_size
+Pakota requestin koko
+;Force screenreq's size
+;
+;
+MSG_use_public_screen
+Käytä julkista ruutua
+;Use public screen
+;
+;
+MSG_public_screen_name
+Julkisen ruudun nimi
+;Public screen name
+;
+;
+MSG_txd_crlf_conversion
+TXD CR/LF konvertointi
+;TXD CR/LF conversion
+;
+;
+MSG_cr_to_crlf
+Muuta CR CRLF:ski
+;Convert cr to cr/lf
+;
+;
+MSG_lf_to_crlf
+Muuta LF CRLF:ski
+;Convert lf to cr/lf
+;
+;
+MSG_layout
+Muoto
+;Layout
+;
+;
+MSG_vertical
+Vertikaalinen
+;Vertical
+;
+;
+MSG_horizontal
+Horisontaalinen
+;Horizontal
+;
+;
+MSG_toolbar
+Työkalupalkki
+;Toolbar
+;
+;
+MSG_emulation
+Emulaatio
+;Emulation
+;
+;
+MSG_ansi_vt102
+ANSI/VT102
+;ANSI/VT102
+;
+;
+MSG_hex
+HEX
+;HEX
+;
+;
+MSG_xem
+XEm
+;XEm
+;
+;
+MSG_reset
+RESETOI
+;RESET
+;
+;
+MSG_ansi_setup
+ANSIN asetukset
+;ANSI setup
+;
+;
+MSG_prescroll
+Etukäteisvieritys
+;Prescroll
+;
+;
+MSG_line_wrap
+Rivin wrappaus
+;Line wrap
+;
+;
+MSG_destructive_backspace
+Tuhoava delete
+;Destructive BackSpace
+;
+;
+MSG_strip_bold
+Strippaa vahvennus
+;Strip Bold
+;
+;
+MSG_esc2j_homes_cursor
+Esc[2J kotiuttaa kursorin
+;Esc[2J homes cursor
+;
+;
+MSG_cr_lf_to_cr_lf
+LF -> CR/LF
+;LF -> CR/LF
+;
+;
+MSG_pc_ansi
+PC Ansi (16 väriä)
+;PC Ansi (16 colors)
+;
+;
+MSG_xem_setup
+XEm asetukset
+;XEm setup
+;
+;
+MSG_change_options
+Vaihda asetuksia
+;Change options
+;
+;
+MSG_special
+Erityistä
+;Special
+;
+;
+MSG_direct_print
+Suora printti
+;Direct print
+;
+;
+MSG_run_command
+Suorita komento
+;Run command
+;
+;
+MSG_current_phonebook_is_not_saved
+\033cNykyistä puhelinluetteloa ei ole talletettu! Lataa uusi siittä huolimatta?
+;\\033cCurrent phonebook is not saved! Load new anyway?
+;
+;
+MSG_name
+Nimi
+;Name
+;
+;
+MSG_comment
+Kommentti
+;Comment
+;
+;
+MSG_dial_prefix
+Soiton prefix
+;Dial Prefix
+;
+;
+MSG_password
+Salasana
+;Password
+;
+;
+MSG_download_list
+Imurointi loki
+;Download list
+;
+;
+MSG_hangup_string
+Katkaisu
+;Hangup
+;
+;
+MSG_dial_suffix
+Soiton suffix
+;Dial Suffix
+;
+;
+MSG_no_carrier
+Ei linjaa
+;No Carrier
+;
+;
+MSG_no_dialtone
+Ei soittoääntä
+;No DialTone
+;
+;
+MSG_connect
+Yhteys
+;Connect
+;
+;
+MSG_ringing
+Soi
+;Ringing
+;
+;
+MSG_error
+Virhe
+;Error
+;
+;
+MSG_busy
+Varattu
+;Busy
+;
+;
+MSG_ok_string
+Ok
+;Ok
+;
+;
+MSG_dial_abort
+Soiton keskeytys
+;Dial abort
+;
+;
+MSG_call_cost
+Soiton hinta
+;Call cost
+;
+;
+MSG_minute_cost
+Minuutin hinta
+;Minute
+;
+;
+MSG_serial_buffer
+Sarjaportin bufferi
+;Serial buffer
+;
+;
+MSG_hardware_lines
+Kovo rivejä
+;Hardware lines
+;
+;
+MSG_wait_between_dials
+Odotusaika soittojen välillä
+;Wait between dials
+;
+;
+MSG_wait_dialing
+Odotusaika soitolle
+;Wait dialing
+;
+;
+MSG_f1
+F1
+;F1
+;
+;
+MSG_f2
+F2
+;F2
+;
+;
+MSG_f3
+F3
+;F3
+;
+;
+MSG_f4
+F4
+;F4
+;
+;
+MSG_f5
+F5
+;F5
+;
+;
+MSG_f6
+F6
+;F6
+;
+;
+MSG_f7
+F7
+;F7
+;
+;
+MSG_f8
+F8
+;F8
+;
+;
+MSG_f9
+F9
+;F9
+;
+;
+MSG_f10
+F10
+;F0
+;
+;
+MSG_log_calls
+Lokkaa soitot
+;Log calls
+;
+;
+MSG_review
+Review
+;Review
+;
+;
+MSG_review_lines
+Review rivejä
+;Review lines
+;
+;
+MSG_options
+Asetukset
+;Options
+; **************************************************
+; ****** Combined gadget texts with shortcuts ******
+; **************************************************
+;
+; Note: To force consistency dreamterm uses SAME string with keyboard
+;       shortcut for general texts like add, delete etc. In other words
+;       choose these carefully and everyone must be different!
+;       BE CAREFUL NOT TO USE SAME KEYBOARD SHORTCUT IN OTHER GADGET
+;       TEXTS IN SAME WINDOW!
+;
+;
+MSG_key_add
+_Lisää
+;_Add
+;
+;
+MSG_key_delete
+_Tuhoa
+;_Delete
+;
+;
+MSG_key_ok
+_Ok
+;_Ok
+;
+;
+MSG_key_cancel
+_Peru
+;_Cancel
+; This is kinda standard ok|cancel for mui reqs
+;
+MSG_mui_ok_cancel
+_Ok|*_Peru
+;_Ok|*_Cancel
+; *******************
+; ****** dterm ******
+; *******************
+;
+;
+MSG_closing_screen_you_must_close_all_windows
+Suljen ruutua, sinun täytyy sulkea kaikki ikkunat!
+;Closing screen, you must close all windows!
+;
+;
+MSG_dreamterm_scr_title
+DreamTerm (Tekijänoikeudet © 1992-1996 By Pasi Ristioja)
+;DreamTerm (Copyright © 1992-1995 By Pasi Ristioja)
+;
+;
+MSG_cannot_open_requested_screen_trying_workbench
+Pyydetyn ruudun avaus epäonnistui, yritän Workbenchiä!
+;Cannot open requested screen, trying Workbench!
+;
+;
+MSG_cannot_find_public_screen_trying_workbench
+Pyydettyä public ruutua ei ole, yritän Workbenchiä!
+;Cannot find public screen, trying Workbench!
+;
+;
+MSG_cannot_find_public_screen
+Pyydettyä public ruutua ei ole!
+;Cannot find public screen!
+;
+;
+MSG_dreamterm_win_title
+DreamTerm
+;DreamTerm
+;
+;
+MSG_cannot_open_console
+Konsolin avaus epäonnistui!
+;Cannot open console!
+;
+;
+MSG_cannot_init_console
+Konsolin alustus epäonnistui!
+;Cannot init console!
+;
+;
+MSG_cannot_modify_console
+Konsolin muuttaminen epäonnistui!
+;Cannot modify console!
+;
+;
+MSG_cannot_init_serial
+Sarjaportin alustus epäonnistui!
+;Cannot init serial!
+;
+;
+MSG_out_of_memory
+Muisti ei riitä!
+;Out of memory!
+;
+;
+MSG_cannot_wake_up
+Herääminen epäonnistui!
+;Cannot wake up!
+;
+;
+MSG_cannot_save_current_settings
+Tämän hetkisten asetusten talletus epäonnistui!
+;Cannot save current settings!
+;
+;
+MSG_cannot_read_profile
+\033c!!! Profiilin lataus epäonnistui !!!\n\n\
+\033lTämä vaikuttaa jokaiseen puhelinluettelon entryyn, joka käyttää hae\n\
+profiilista ominaisuutta.
+;\\033c!!! Cannot read profile table !!!\\n\\n\
+;This will affect EVERY phonebook entry which uses pick from profile feature.
+;
+;
+MSG_cannot_save_profile
+\033c!!! Profiilin talletus epäonnistui !!!\n\n\
+\033lJos lopetat nyt niin tämä vaikuttaa kaikkiin puhelinluettelon entryihin\n\
+jotka käyttävät hae profiilista ominaisuutta. Eli kaikki asetukset jotka ovat\n\
+tässä moodissa käyttävät sisäänrakennettuja arvoja.
+;\\033c!!! Cannot save profile !!!\\n\\n\
+;\\033lIf you quit now then next time all phonebook entries which use\\n\
+;pick from profile feature will be affected. Meaning that every\\n\
+;setting which is in profile state will use hardcoded default.
+;
+;
+MSG_cannot_save_default_profile
+\033c!!! Oletusarvoisten hae profiilista asetuksien tallennus epäonnistui !!!\n\n\
+\033lJos lopetat nyt niin tämä vaikuttaa seuraavalla kerralla uusien\n\
+puhelinluettelon entryjen asetuksiin. Eli mikään asetus ei hae arvoansa\n\
+profilesta.
+;\\033c!!! Cannot save default pickup from profile !!!\\n\\n\
+;\\033lIf you quit now then next time creation of phonebook entries\\n\
+;will be affected. Meaning that every setting will be in local\\n\
+;state when you create phonebook entry.
+;
+;
+MSG_unable_to_continue
+*** MAHDOTONTA JATKAA ***\n\n
+;*** UNABLE TO CONTINUE ***\\n\\n
+;
+;
+MSG_cannot_load_use_current_settings
+Tämänhetkisten asetusten lataus epäonnistui, käytetään sisäänrakennettuja...
+;Cannot load/use current settings, trying defaults...
+;
+; ****** arexx ******
+;
+;
+; ****** c2asm ******
+;
+;
+;
+MSG_cannot_open_font_for_hardware_screen
+Fontin avaaminen hardware ruudulle epäonnistui!
+;Cannot open font for hardware screen
+; *********************
+; ****** charset ******
+; *********************
+;
+;
+MSG_charset_configuration
+Merkistön konfiguraatio
+;Charset configuration
+;
+;
+MSG_select_font
+Valitse kirjasintyyppi
+;Select font
+;
+;
+MSG_cannot_open_font
+Kirjasintyypin avaus epäonnistui!
+;Cannot open font!
+;
+;
+MSG_load_txd_conversion_table
+Lataa TXD muunnos taulukko
+;Load TXD conversion table
+;
+;
+MSG_loaded_conversion_table_incomplete_current_not_changed
+Ladattu muunnos taulukko on liian lyhyt, nykyistä ei muuteta!
+;Loaded conversion table incomplete, current not changed!
+;
+;
+MSG_cannot_open_conversion_table
+Muunnostaulukon avaus epäonnistui!
+;Cannot open conversion table!
+;
+;
+MSG_load_rxd_conversion_table
+Lataa RXD muunnos taulukko
+;Load RXD conversion table
+;
+;
+MSG_load_capture_conversion_table
+Lataa capture/review muunnos taulukko
+;Load capture/review conversion table
+;
+;
+MSG_width
+Leveys
+;width
+;
+;
+MSG_heigth
+Korkeus
+;heigth
+; *****************
+; ****** cmd ******
+; *****************
+;
+;
+MSG_current_configuration_is_not_saved
+Nykyisiä asetuksia ei ole talletettu! Lataa uudet siittä huolimatta?
+;\\033cCurrent configuration is not saved! Load new anyway?
+;
+;
+MSG_this_will_change_your_life
+Tämä muuttaa elämäsi
+;This will change your life
+;
+;
+MSG_program_modules_show_no_more
+Ohjelman osat...|Älä näytä enempää!
+;Program modules...|Show no more!
+;
+;
+MSG_about1
+\033cPainajaisTerminaali\n\
+Tekijänoikeudet © 1992-1996 By Pasi Ristioja, kaikki oikeudet pidätetään.\n\n\
+Tämä on lahjamulle ohjelma, lue lisenssi tietääksesi mitä tehdä,\n\
+ja muista että bugista softaa käytetään myös avaruus-sukkuloissa...
+;\\033cDreamTerm\\n\
+;Copyright © 1992-1996 By Pasi Ristioja, all rights reserved.\\n\\n\
+;This is giftware release, read license to learn what you should\\n\
+;do. And remember, buggy software is also used in space shuttles...
+;
+;
+MSG_who_needs_this_information
+Kuka tarvitsee tätä tietoa?
+;Who needs this information?
+;
+;
+MSG_about2
+\033c%s\n\n\033l\
+Asyncio.library    : %5ld Pool memory type   : %5ld\n\
+Capture buffer size: %5ld Pool puddlesize    : %5ld\n\
+TXD buffer size    : %5ld Pool treshhold     : %5ld\n
+;\\033c%s\\n\\n\\033l\
+;Asyncio.library    : %5ld Pool memory type   : %5ld\\n\
+;Capture buffer size: %5ld Pool puddlesize    : %5ld\\n\
+;TXD buffer size    : %5ld Pool treshhold     : %5ld\\n
+;
+;
+MSG_online
+-( Linjalla )-\n
+;-( Online )-\\n
+;
+;
+MSG_phonebook_directory
+-( Puhelinluettelo )-\n
+;-( Phonebook directory )-\\n
+;
+;
+MSG_toolbar_configuration
+-( Työkalu konfiguraatio )-\n
+;-( Toolbar configuration )-\\n
+;
+;
+MSG_protocol_configuration
+-( Protokolla konfiguraatio )-\n
+;-( Protocol configuration )-\\n
+;
+;
+MSG_xemulation_configuration
+-( XEmulaatio konfiguraatio )-\n
+;-( XEmulation configuration )-\\n
+;
+;
+MSG_character_set_configuration
+-( Merkistö konfiguraatio )-\n
+;-( Character set configuration )-\\n
+;
+;
+MSG_are_you_sure_to_quit
+\033cOletko varma lopetuksesta, näitä ei ole vielä talletettu:\n\n%s
+;\\033cAre you sure to quit, these aren't saved yet:\\n\\n%s
+;
+;
+MSG_enter_numbers_to_dial
+Anna puhelinnumerot joihin soittaa
+;Enter number(s) to dial
+;
+;
+MSG_select_file
+Valitse tiedosto
+;Select file
+;
+;
+MSG_select_file_no_conversion
+Valitse tiedosto (ei muunnosta)
+;Select file (no conversion)
+;
+;
+MSG_overwrite_append_cancel
+Kirjoita yli|Lisää|Peru
+;Overwrite|Append|Cancel
+;
+;
+MSG_file_x_already_exist
+\033cTiedosto '\\033b%s\\033n' on jo olemassa!
+;\\033cFile '\\033b%s\\033n' already exist!
+; *******************
+; ****** crypt ******
+; *******************
+;
+;
+MSG_crypting_options
+Salaus asetukset
+;Crypting options
+;
+;
+MSG_library
+Kirjasto
+;Library
+; ********************
+; ****** dialer ******
+; ********************
+;
+;
+MSG_dialing_manually
+Soitan manuaalisesti
+;Dialing manually
+;
+;
+MSG_dialing
+Soitetaan...
+;Dialing...
+;
+;
+MSG_phone
+Puhelin
+;Phone
+;
+;
+MSG_modem
+Modeemi
+;Modem
+;
+;
+MSG_add_time
+_Lisää aikaa
+;Add _time
+;
+;
+MSG_skip
+_Skippaa
+;_Skip
+;
+;
+MSG_abort
+_Keskeytä
+;_Abort
+;
+;
+MSG_force_connect
+_Pakota yhteys
+;_Force connect
+;
+;
+MSG_x_seconds_left_for_succesful_connection
+Odotetaan vielä %ld sekuntia yhteyden muodostamista
+;%ld seconds left for succesful connection
+;
+;
+MSG_x_seconds_left_for_waiting
+Odotetaan vielä %ld sekuntia
+;%ld seconds left for waiting
+;
+;
+MSG_x_tries_x_seconds_used
+%ld yritystä, %s kulutettu
+;%ld tries, %s used
+;
+;
+MSG_no_name
+- ei nimeä -
+;- no name -
+; **********************
+; ****** droplist ******
+; **********************
+;
+;
+MSG_enter_new_number
+Anna uusi numero
+;Enter new number
+;
+;
+MSG_droplist
+Pudotuslista
+;Droplist
+; *************************
+; ****** upload list ******
+; *************************
+;
+; Remember to add space after time:
+MSG_x_x_mb_time
+%ld.%02ld MB, aika: 
+;%ld.%02ld MB, time: 
+;
+;
+MSG_select_files_to_add
+Valitse lisättävät tiedostot
+;Select file(s) to add
+;
+;
+MSG_combined_size
+Yhteenlaskettu koko
+;Combined size
+;
+;
+MSG_estimated_cps
+Arvioitu cps
+;Estimated cps
+;
+;
+MSG_upload_list
+Upload lista
+;Upload list
+;
+;
+MSG_delete_all
+Po_ista kaikki
+;D_elete all
+;
+;
+MSG_fi_upload
+_Upload
+;_Upload
+; *************************
+; ****** guiroutines ******
+; *************************
+;
+;
+MSG_warning
+Varoitus...
+;Warning...
+; *******************************
+; ****** menu sub whatever ******
+; *******************************
+;
+;
+MSG_change_profile_phone_prefix
+Vaihda profiilin puhelimen etuliitettä
+;Change profile phone prefix
+;
+;
+MSG_raw_direct_to_emulation
+Suoraan emulaatiolle
+;Raw & direct to emulation
+;
+;
+MSG_enter_command_arguments
+Anna komento ja argumentit
+;Enter command & arguments
+;
+;
+MSG_select_tempdir
+Valitse väliaikainen hakemisto
+;Select tempdir
+;
+;
+MSG_startup_initstring
+Modeemin initointi
+;Startup initstring
+;
+;
+MSG_select_upload_path
+Valitse upload hakemisto
+;Select upload path
+;
+;
+MSG_select_download_path
+Valitse imurointi hakemisto
+;Select download path
+; ***********************
+; ****** phonebook ******
+; ***********************
+;
+;
+MSG_pb_edit_droplist
+Editoi pudotuslistaa
+;Edit droplist
+;
+;
+MSG_pb_edit_showlist
+Editoi näyttölistaa
+;Edit showlist
+;
+;
+MSG_pb_ascending
+Kasvava
+;Ascending
+;
+;
+MSG_pb_descending
+Pienenevä
+;Descending
+;
+;
+MSG_pb_selected
+Valittu
+;Selected
+;
+;
+MSG_pb_load_new_phonebook
+Lataa uusi puhelinluettelo
+;Load new phonebook
+;
+;
+MSG_pb_append_new_phonebook
+Lisää uusi puhelinluettelo
+;Append new phonebook
+;
+;
+MSG_pb_save_phonebook
+Talleta puhelinluettelo
+;Save phonebook
+;
+;
+MSG_pb_how_many_hours_to_freeze
+Kuinka moneksi tunniksi jäädytetään
+;How many hours to freeze
+;
+;
+MSG_pb_select_showlist
+Valitse näyttölista
+;Select showlist
+;
+;
+MSG_pb_cannot_load_complete_phonebook
+Koko puhelinluetteloa ei saa luetuksi!
+;Cannot load complete phonebook!
+;
+;
+MSG_pb_cannot_decrypt_phonebook
+Puhelinluettelon salauksen purku ei onnistunut!
+;Cannot decrypt phonebook!
+;
+;
+MSG_pb_showlist
+N_äyttölista
+;Sh_owlist
+;
+;
+MSG_pb_dial
+_Soita
+;_Dial
+;
+;
+MSG_pb_unselect
+_Poista valinnat
+;_Unselect
+;
+;
+MSG_pb_add
+_Lisää
+;_Add
+;
+;
+MSG_pb_clone
+_Kopioi
+;_Clone
+;
+;
+MSG_pb_edit
+_Editoi
+;_Edit
+;
+;
+MSG_pb_delete
+_Tuhoa
+;Dele_te
+;
+;
+MSG_pb_drop_away
+T_iputa
+;D_rop away
+;
+;
+MSG_pb_freeze
+_Jäädytä
+;_Freeze
+;
+;
+MSG_pb_reset
+_Resetoi
+;Re_set
+;
+;
+MSG_pb_enter_password
+Anna salasana
+;Enter password
+;
+;
+MSG_pb_cannot_crypt_phonebook
+Puhelinluettelon salaus ei onnistunut!
+;Cannot crypt phonebook!
+;
+;
+MSG_pb_cannot_save_phonebook
+Puhelinluettelon talletus ei onnistunut!
+;Cannot save phonebook!
+; ************************
+; ****** phoneentry ******
+; ************************
+;
+;
+MSG_bbs
+BBS
+;BBS
+;
+;
+MSG_keyboard
+Näppäimistö
+;Keyboard
+;
+;
+MSG_line_window
+Rivi ja ikkuna
+;Line/Window
+;
+;
+MSG_external_xem
+Ulkoinen (XEm)
+;External (XEm)
+;
+;
+MSG_black_background
+Musta     (Tausta)
+;Black   (Background)
+;
+;
+MSG_red
+Punainen
+;Red
+;
+;
+MSG_green
+Vihreä
+;Green
+;
+;
+MSG_yellow
+Keltainen
+;Yellow
+;
+;
+MSG_blue
+Sininen
+;Blue
+;
+;
+MSG_magenta
+Magenta
+;Magenta
+;
+;
+MSG_cyan
+Cyan
+;Cyan
+;
+;
+MSG_white
+Valkoinen
+;White
+;
+;
+MSG_black_bright
+Musta     (Kirkas)
+;Black   (Bright)
+;
+;
+MSG_red_bright
+Punainen  (Kirkas)
+;Red     (Bright)
+;
+;
+MSG_green_bright
+Vihreä    (Kirkas)
+;Green   (Bright)
+;
+;
+MSG_yellow_bright
+Keltainen (Kirkas)
+;Yellow  (Bright)
+;
+;
+MSG_blue_bright
+Sininen   (Kirkas)
+;Blue    (Bright)
+;
+;
+MSG_magenta_bright
+Magenta   (Kirkas)
+;Magenta (Bright)
+;
+;
+MSG_cyan_bright
+Cyan      (Kirkas)
+;Cyan    (Bright)
+;
+;
+MSG_white_bright
+Valkoinen (Kirkas)
+;White   (Bright)
+;
+;
+MSG_background
+Tausta
+;Background
+;
+;
+MSG_screen_dimension_x_x_pixels_x_colors
+Ruudun koko: %ldx%ld pistettä, %ld väriä
+;Screen dimension: %ldx%ld pixels, %ld colors
+;
+;
+MSG_disable_option_to_pick_it_from_profile
+Disabloi optio poimiaksesi se profiilista
+;Disable option to pick it from profile
+;
+;
+MSG_disable_option_to_make_it_default_pick_from_profile
+Disabloi option tehdäksesi se oletusarvoiseksi poimi profiilista
+;Disable option to make it default pick from profile
+;
+;
+MSG_disable_option_to_pick_it_from_local_here
+Disabloi optio poimiaksesi se lokaalisti (täältä)
+;Disable option to pick it from local (here)
+;
+;
+MSG_disable_option_to_make_it_default_pick_from_local_here
+Disabloi optio tehdäksesi se oletusarvoiseksi poimi lokaalisti (täältä)
+;Disable option to make it default pick from local (here)
+;
+;
+MSG_yes_discard
+_Kyllä|_Hävitä
+;_Yes|_Discard
+;
+;
+MSG_phonenumber_is_in_droplist
+\033cPuhelinnumero on pudotuslistassa\n\nOletko varma että haluat lisätä entryn puhelinluetteloon?
+;\\033cPhonenumber is in droplist\\n\\nAre you sure that you want to add entry to phonebook?
+;
+;
+MSG_pe_public_screen_name
+Jul. ruutu
+;Pubscreen
+;
+;
+MSG_pe_force_screenreqs_size
+Pakota koko
+;Force size
+;
+;
+MSG_pe_hardware_lines
+H-Rivit
+;H-Lines
+;
+;
+MSG_default
+Oletus
+;Default
+;
+;
+MSG_brighter
+Valoisemmaksi
+;Brighter
+;
+;
+MSG_copy_8
+Kopioi 8
+;Copy 8
+;
+;
+MSG_pe_prescroll
+\033cEtukäteisvieritys
+;\\033cPrescroll
+;
+;
+MSG_pe_set_pick
+Aseta poiminta
+;Set pick
+;
+;
+MSG_pe_clear_pick
+Poista poiminta
+;Clear pick
+;
+;
+MSG_pe_editing_phonebook_entry
+Editoidaan puhelinluettelon entryä
+;Editing phonebook entry
+;
+;
+MSG_no_memory_to_edit_entry
+Ei muistia entryn editoimiseen!
+;No memory to edit entry!
+;
+;
+MSG_creating_new_phonebook_entry
+Tehdään uutta puhelinluettelon entryä
+;Creating new phonebook entry
+;
+;
+MSG_cannot_create_entry
+Entryä ei kyetä luomaan!
+;Cannot create entry!
+;
+;
+MSG_editing_profile
+Editoidaan profiilia
+;Editing profile
+;
+;
+MSG_editing_current_settings
+Editoidaan nykyisiä asetuksia
+;Editing current settings
+;
+;
+MSG_pe_use_public_screen
+Käytä
+;Use
+;
+;
+MSG_pe_status_line
+Formaatti
+;Format
+; **********************
+; ****** protocol ******
+; **********************
+;
+;
+MSG_xp_protocol_configuration
+Tiedonsiirron asetukset
+;Protocol configuration
+;
+;
+MSG_xp_select_xpr_protocol_library
+Valitse xpr kirjasto
+;Select xpr protocol library
+;
+;
+MSG_xp_xpr_library
+Xpr kirjasto
+;Xpr library
+;
+;
+MSG_xp_init_string
+Init stringi
+;Init string
+;
+;
+MSG_xp_auto_upload
+Auto upload
+;Auto upload
+;
+;
+MSG_xp_auto_download
+Auto imurointi
+;Auto download
+;
+;
+MSG_xp_xpr
+Xpr 2.001
+;Xpr 2.001
+;
+;
+MSG_xp_external
+Ulkoinen
+;External
+;
+;
+MSG_xp_upload_dos
+DOS upload
+;DOS upload
+;
+;
+MSG_xp_download_dos
+DOS imurointi
+;DOS download
+; ***************************
+; ****** internal kind ******
+; ***************************
+; If this text pops up your are in _big_ trouble
+;
+MSG_alloc_force_error
+Ehdoton varaus epäonnistui, odotetaan 5 sekuntia ja yritetään uudestaan.
+;Allocation which must success failed, waiting 5 seconds and trying again.
+;
+;
+MSG_phone_prefix
+Puhelinnumeron prefix
+;Phone prefix
+;
+;
+MSG_crypting_library
+Salaus kirjasto
+;Crypting library
+; Actually not yet done (wonder why)
+;
+MSG_packing_library
+Pakkaus kirjasto
+;Packing library
+;
+;
+MSG_crypting_phrase
+Salasana
+;Crypting phrase
+; This string should be never seen
+;
+MSG_obsolete
+-ikivanha-
+;-Obsolete-
+;
+;
+MSG_depth
+Syvyys
+;Depth
+;
+;
+MSG_last_called
+Viimeksi soitettu
+;Last called
+;
+;
+MSG_total_cost
+Yhteenlaskettu hinta
+;Total cost
+;
+;
+MSG_total_time
+Yhteenlaskettu aika
+;Total time
+;
+;
+MSG_total_calls
+Yhteenlasketut soitot
+;Total calls
+;
+;
+MSG_sent_bytes
+Lähetetyt merkit
+;Sent bytes
+;
+;
+MSG_received_bytes
+Vastaanotetut bytet
+;Received bytes
+;
+;
+MSG_console_x
+Konsolin leveys
+;Console x
+;
+;
+MSG_console_y
+Konsolin korkeus
+;Console y
+;
+;
+MSG_overscan
+Overscan
+;Overscan
+;
+;
+MSG_autoscroll
+Autoscrolli
+;Autoscroll
+;
+;
+MSG_freeze
+Jäädytys
+;Freeze
+;
+;
+MSG_toolbar_active
+Työkalupalkki aktiivinen
+;Toolbar active
+;
+;
+MSG_toolbar_layout
+Työkalupalkin muoto
+;Toolbar layout
+;
+;
+MSG_no_command
+Ei komentoa
+;No command
+;
+;
+MSG_edit_current_settings
+Editoi nykyisiä asetuksia
+;Edit current settings
+;
+;
+MSG_edit_profile
+Editoit profiilia
+;Edit profile
+;
+;
+MSG_edit_protocols
+Editoi tiedonsiirto protokollia
+;Edit protocols
+;
+;
+MSG_edit_character_sets
+Edit kirjaisintyyppejä
+;Edit character set
+;
+;
+MSG_edit_emulations
+Editoi emulaatioita
+;Edit emulations
+;
+;
+MSG_edit_toolbar
+Editoit työkalupalkkia
+;Edit toolbar
+;
+;
+MSG_edit_crypt_settings
+Editoi salaus asetuksia
+;Edit crypt settings
+;
+;
+MSG_edit_phonebook
+Editoi puhelinluetteloa
+;Edit phonebook
+;
+;
+MSG_view_review
+Näytä review
+;View review
+;
+;
+MSG_release_serial
+Vapauta sarjaportti
+;Release serial
+;
+;
+MSG_xx_mb
+%ld.%02ldMb
+;%ld.%02ldMB
+;
+;
+MSG_on
+Päällä
+;On
+;
+;
+MSG_off
+Poissa
+;Off
+; internal cmd tag
+;
+MSG_load_profile
+Lataa profiili
+;Load profile
+; internal cmd tag
+;
+MSG_save_profile
+Talleta profiili
+;Save profile
+; **********************
+; ****** showlist ******
+; **********************
+;
+;
+MSG_showlist_configuration
+Näyttölistan asetukset
+;Showlist
+;
+;
+MSG_select_tag
+Valitse tagi
+;Select tag
+;
+;
+MSG_control
+Kontrolli
+;Control
+;
+;
+MSG_move_up
+Siirrä _ylös
+;Move _up
+;
+;
+MSG_move_down
+Siirrä _alas
+;Move d_own
+;
+;
+MSG_add_tag
+L_isää tagi
+;Add _tag
+;
+;
+MSG_delete_tag
+_Poista tagi
+;D_elete tag
+; *********************
+; ****** toolbar ******
+; *********************
+;
+;
+MSG_tb_toolbar_configuration
+Työkalupalkin asetukset
+;Toolbar configuration
+;
+;
+MSG_internal_empty
+8x8x1 (Sisäinen tyhjä)
+;8x8x1 (Internal empty)
+;
+;
+MSG_mui_is_remapping_image
+MUI remappaa kuvaa (voi viedä ikuisuuden).
+;MUI is remapping image (may take a while).
+;
+;
+MSG_loading_image
+Lataan kuvaa (voi viedä ikuisuuden).
+;Loading image (may take a while).
+;
+;
+MSG_select_picture
+Valitse kuva
+;Select picture
+;
+;
+MSG_format
+Formaatti
+;Format
+;
+;
+MSG_dos
+DOS
+;DOS
+;
+;
+MSG_action
+Toiminta
+;Action
+;
+;
+MSG_tb_add
+Lisää
+;Add
+;
+;
+MSG_tb_delete
+Tuhoa
+;Delete
+; *****************
+; ****** xem ******
+; *****************
+;
+;
+MSG_xem_configuration
+XEm asetukset
+;XEm configuration
+;
+;
+MSG_select_xem_library
+Valitse XEm kirjasto
+;Select XEm library
+;
+;
+MSG_xem_library
+XEm kirjasto
+;XEm library
+;
+;
+MSG_settings
+Asetukset
+;Settings
+;
+;
+MSG_colors_to_use
+Värejä käytössä
+;Colors to use
+;
+;
+MSG_xm_change_options
+_Muuta asetuksia
+;_Change options
+;
+;
+MSG_xm_reset
+_Resetoi
+;_Reset
+; ***********************
+; ****** xprdriver ******
+; ***********************
+;
+;
+MSG_xw_name
+Nimi
+;Name
+;
+;
+MSG_xw_size
+Koko
+;Size
+;
+;
+MSG_xw_time
+Aika
+;Time
+;
+;
+MSG_xw_cps
+CPS
+;CPS
+;
+;
+MSG_xw_bytes
+Merkkejä
+;Bytes
+;
+;
+MSG_xw_blocksize
+Blokin koko
+;Blocksize
+;
+;
+MSG_xw_block_crc
+Blokin crc
+;Block crc
+;
+;
+MSG_xw_msg
+Viesti
+;Msg
+;
+;
+MSG_xw_error
+Virhe
+;Error
+; very unwise to use shortcuts here
+;
+MSG_xw_skip
+Hyppää yli
+;Skip
+; very unwise to use shortcuts here
+;
+MSG_xw_abort
+Keskeytä
+;Abort
+;
+;
+MSG_select_files_to_upload
+Valitse tiedostot lähetettäväksi
+;Select file(s) to upload
+;
+;
+MSG_cannot_open_xpr_library
+En pysty avaamaan xpr kirjastoa!
+;Cannot open xpr library!
+;
+;
+MSG_enter_receive_filename
+Anna imuroinnin tiedoston nimi
+;Enter receive filename
+; ********************
+; ****** review ******
+; ********************
+;
+;

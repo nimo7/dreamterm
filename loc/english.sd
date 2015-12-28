@@ -1,0 +1,17 @@
+##stringtype none
+##shortstrings
+## version $VER: English.catalog 2.0 (18.04.1996)
+## language english
+## codeset 0
+## chunk AUTH English catalog translation by Pasi Ristioja.
+;
+; *** WARNING ***
+;
+; DO NOT EDIT ENGLISH.CT BY HAND, INSTEAD EDIT DTERM.CD!
+;
+; Note that all \ escapes MUST BE doubled, \033c -> \\033c
+; in dterm.cd (however in *.ct files you must not do that).
+;
+; *** WARNING ***
+;
+%i\n%s

@@ -1,0 +1,66 @@
+#
+# Makefile for DreamTerm ( no automatic .gst creation! )
+#
+
+NAME  = dterm
+#AOPT  = NOEXE DL DS SC SET DEBUG
+#COPT  = define DEBUG
+AOPT  = NOEXE DL DS SC
+COPT  = 
+OBJ   = dterm.o\
+c2asm.o\
+charset.o\
+cmd.o\
+crypt.o\
+dialer.o\
+dropList.o\
+fileid.o\
+globalvar.o\
+guiroutines.o\
+menu.o\
+phoneentry.o\
+phonebook.o\
+routines.o\
+routinesa.o\
+showlist.o\
+toolbar.o\
+xem.o\
+xprdriver.o\
+class_cps.o\
+class_protocol.o\
+class_revarea.o\
+class_review.o\
+driver_protocol.o\
+emu/emu_head.o\
+emu/emu_ansi.o\
+emu/emu_hex.o\
+emu/emu_xem.o\
+ser/ser_head.o\
+ser/ser_hw.o\
+ser/ser_sw.o\
+scr/scr_head.o\
+scr/scr_hw.o\
+scr/scr_sw.o
+
+# Link everything
+
+$(NAME): 	$(OBJ)
+		SLINK LIB:c.o $(OBJ) TO $(NAME) NODEBUG with lib:utillib.with with scoptions.lnk
+
+# Compile everything
+
+#dterm.gst:	global.h globalext.h globalinc.h globalvar.h muimacro.h routines.h
+#		GST dterm.gst UNLOAD
+#		SC $(COPT) IDLEN=65 MGST dterm.gst fakegst.c
+
+.c.o:
+		SC $(COPT) IDLEN=65 GST dterm.gst OBJNAME=$*.o $*.c
+
+*/.c.o:
+		SC $(COPT) IDLEN=65 GST dterm.gst OBJNAME=*/$*.o */$*.c
+
+.asm.o:
+		PhxAss $(AOPT) $*.asm
+
+*/.asm.o:
+		PhxAss $(AOPT) */$*.asm

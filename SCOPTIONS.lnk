@@ -1,0 +1,7 @@
+SC
+SD
+VERBOSE
+NOALVS
+define ___main=___tinymain
+
+LIB lib:priv.lib lib:amiga.lib lib:sc.lib
