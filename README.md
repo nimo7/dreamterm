@@ -1,5 +1,4 @@
-# dreamterm
-Sources for old Amiga terminal program
+# DreamTerm
 
 Happened to find some of my old sources for Amiga during holiday and thought in drunken stupor that it would be nice to 'immortalise' them into GitHub. So here is 20+ years old DTerm sources for the latest released version (1.50). I did minimal cleaning to make it compile.
 
