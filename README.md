@@ -15,7 +15,6 @@ To compile (I had so much trouble to duplicate my old environment):
 - do following assigns (or copy after SAS/C assigns at user-startup and reboot)
 
   - assign work: sys:work
-
   - assign lib:     work:dterm/2016/lib add
   - assign asminc:  include:
   - assign asminc:  work:dterm/2016/include add
